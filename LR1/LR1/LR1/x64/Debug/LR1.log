@@ -1,0 +1,33 @@
+﻿  InfoAttributes.cpp
+c:\users\nikit\onedrive\рабочий стол\lr1\lr1\lr1\infoattributes.h(71): warning C4129: F: неизвестная escape-последовательность
+  begin.cpp
+c:\users\nikit\onedrive\рабочий стол\lr1\lr1\lr1\createnewfolder.h(9): warning C4129: F: неизвестная escape-последовательность
+c:\users\nikit\onedrive\рабочий стол\lr1\lr1\lr1\createnewfile.h(11): warning C4129: F: неизвестная escape-последовательность
+c:\users\nikit\onedrive\рабочий стол\lr1\lr1\lr1\movingfile.h(11): warning C4129: F: неизвестная escape-последовательность
+c:\users\nikit\onedrive\рабочий стол\lr1\lr1\lr1\movingfile.h(14): warning C4129: F: неизвестная escape-последовательность
+c:\users\nikit\onedrive\рабочий стол\lr1\lr1\lr1\deletefolder.h(9): warning C4129: F: неизвестная escape-последовательность
+c:\users\nikit\onedrive\рабочий стол\lr1\lr1\lr1\copythefile.h(11): warning C4129: F: неизвестная escape-последовательность
+c:\users\nikit\onedrive\рабочий стол\lr1\lr1\lr1\copythefile.h(14): warning C4129: F: неизвестная escape-последовательность
+c:\users\nikit\onedrive\рабочий стол\lr1\lr1\lr1\asynchronousfilecopying.h(48): warning C4244: аргумент: преобразование "unsigned __int64" в "DWORD", возможна потеря данных
+c:\users\nikit\onedrive\рабочий стол\lr1\lr1\lr1\asynchronousfilecopying.h(132): warning C4244: аргумент: преобразование "unsigned __int64" в "DWORD", возможна потеря данных
+c:\users\nikit\onedrive\рабочий стол\lr1\lr1\lr1\infoattributes.h(71): warning C4129: F: неизвестная escape-последовательность
+  Создание кода...
+LINK : warning LNK4075: не учитывается "/INCREMENTAL" из-за спецификации "/FORCE"
+begin.obj : warning LNK4006: "void __cdecl AsynchronousFileCopying(void)" (?AsynchronousFileCopying@@YAXXZ) уже определен в AsynchronousFileCopying.obj; второе определение пропущено
+begin.obj : warning LNK4006: "void __cdecl afterReadRoutine(unsigned long,unsigned long,struct _OVERLAPPED *)" (?afterReadRoutine@@YAXKKPEAU_OVERLAPPED@@@Z) уже определен в AsynchronousFileCopying.obj; второе определение пропущено
+begin.obj : warning LNK4006: "void __cdecl afterWriteRoutine(unsigned long,unsigned long,struct _OVERLAPPED *)" (?afterWriteRoutine@@YAXKKPEAU_OVERLAPPED@@@Z) уже определен в AsynchronousFileCopying.obj; второе определение пропущено
+begin.obj : warning LNK4006: "void * file1" (?file1@@3PEAXEA) уже определен в AsynchronousFileCopying.obj; второе определение пропущено
+begin.obj : warning LNK4006: "void * file2" (?file2@@3PEAXEA) уже определен в AsynchronousFileCopying.obj; второе определение пропущено
+begin.obj : warning LNK4006: "union size filesize" (?filesize@@3Tsize@@A) уже определен в AsynchronousFileCopying.obj; второе определение пропущено
+begin.obj : warning LNK4006: "union size clustersize" (?clustersize@@3Tsize@@A) уже определен в AsynchronousFileCopying.obj; второе определение пропущено
+CopyTheFile.obj : warning LNK4006: "void __cdecl CopyTheFile(void)" (?CopyTheFile@@YAXXZ) уже определен в begin.obj; второе определение пропущено
+CreateNewFile.obj : warning LNK4006: "void __cdecl CreateNewFile(void)" (?CreateNewFile@@YAXXZ) уже определен в begin.obj; второе определение пропущено
+CreateNewFolder.obj : warning LNK4006: "void __cdecl CreateNewFolder(void)" (?CreateNewFolder@@YAXXZ) уже определен в begin.obj; второе определение пропущено
+DeleteFolder.obj : warning LNK4006: "void __cdecl DeleteFolder(void)" (?DeleteFolder@@YAXXZ) уже определен в begin.obj; второе определение пропущено
+InfoAttributes.obj : warning LNK4006: "void __cdecl Flags(unsigned long)" (?Flags@@YAXK@Z) уже определен в begin.obj; второе определение пропущено
+InfoAttributes.obj : warning LNK4006: "void __cdecl InfoAttributes(void)" (?InfoAttributes@@YAXXZ) уже определен в begin.obj; второе определение пропущено
+InfoAttributes.obj : warning LNK4006: "void __cdecl fillTime(struct _SYSTEMTIME *)" (?fillTime@@YAXPEAU_SYSTEMTIME@@@Z) уже определен в begin.obj; второе определение пропущено
+MovingFile.obj : warning LNK4006: "void __cdecl MovingFile(void)" (?MovingFile@@YAXXZ) уже определен в begin.obj; второе определение пропущено
+SeeDiscs.obj : warning LNK4006: "void __cdecl SeeDiscs(void)" (?SeeDiscs@@YAXXZ) уже определен в begin.obj; второе определение пропущено
+C:\Users\nikit\OneDrive\Рабочий стол\LR1\LR1\x64\Debug\LR1.exe : warning LNK4088: образ создается из-за параметра /FORCE; образ нельзя запустить
+  LR1.vcxproj -> C:\Users\nikit\OneDrive\Рабочий стол\LR1\LR1\x64\Debug\LR1.exe
