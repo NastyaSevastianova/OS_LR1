@@ -31,6 +31,7 @@ void info()
 
 int main()
 {
+	system("chcp 1251");
 	setlocale(LC_ALL, "Russian");
 	info();
 	CHAR ch = 'y';
