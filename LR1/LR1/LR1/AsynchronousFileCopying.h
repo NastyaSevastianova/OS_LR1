@@ -73,11 +73,13 @@ void AsynchronousFileCopying()
 
 	DWORD sectorPerCluster, bytesPerSector, mock, startTime, endTime;
 
-	std::cout << "Введите полное имя файла, не более 255 символов(например C : \\Users\\User\\file.mp4): ";
+	std::wcin.ignore(INT_MAX, '\n');
+
+	std::cout << "Введите полное имя файла (например D:\Folder\File.mp4): ";
 	std::wcin.getline(file1Path, MAX_PATH, L'\n');
 
 	//Определение пункта назначения
-	std::cout << "Введите полное имя копии файла, не более 255 символов(например C : \\Users\\User\\newfile.mp4): ";
+	std::cout << "Введите полное имя файла (например D:\Folder\File.mp4): ";
 	std::wcin.getline(file2Path, MAX_PATH, L'\n');
 
 	//Открытие файлов
@@ -98,8 +100,8 @@ void AsynchronousFileCopying()
 
 	//Проверка правильности открытия
 	if (file1 == INVALID_HANDLE_VALUE || file2 == INVALID_HANDLE_VALUE) {
-		std::cout << "Исходный файл не был открыт или копия не была создана\n"
-			<< "Проверьте правильность путей, оригинал существует, а копия — нет." << std::endl;
+		std::cout << "Файл не был открыт или копия не была создана\n"
+			<< "Проверьте правильность путей" << std::endl;
 		return;
 	}
 
@@ -138,7 +140,7 @@ void AsynchronousFileCopying()
 	while (SleepEx(100, true));
 
 	endTime = GetTickCount();
-	std::cout << "Успешно! Операция состоялась. " << endTime - startTime << " мс." << std::endl;
+	std::cout << "Успешно! " << endTime - startTime << " мс." << std::endl;
 
 	//Закрытие файлов, освобождение буфера
 	CloseHandle(file1);

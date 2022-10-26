@@ -1,5 +1,8 @@
-﻿  InfoAttributes.cpp
-c:\users\nikit\onedrive\рабочий стол\lr1\lr1\lr1\infoattributes.h(71): warning C4129: F: неизвестная escape-последовательность
+﻿  AsynchronousFileCopying.cpp
+c:\users\nikit\onedrive\рабочий стол\lr1\lr1\lr1\asynchronousfilecopying.h(48): warning C4244: аргумент: преобразование "unsigned __int64" в "DWORD", возможна потеря данных
+c:\users\nikit\onedrive\рабочий стол\lr1\lr1\lr1\asynchronousfilecopying.h(78): warning C4129: F: неизвестная escape-последовательность
+c:\users\nikit\onedrive\рабочий стол\lr1\lr1\lr1\asynchronousfilecopying.h(82): warning C4129: F: неизвестная escape-последовательность
+c:\users\nikit\onedrive\рабочий стол\lr1\lr1\lr1\asynchronousfilecopying.h(134): warning C4244: аргумент: преобразование "unsigned __int64" в "DWORD", возможна потеря данных
   begin.cpp
 c:\users\nikit\onedrive\рабочий стол\lr1\lr1\lr1\createnewfolder.h(9): warning C4129: F: неизвестная escape-последовательность
 c:\users\nikit\onedrive\рабочий стол\lr1\lr1\lr1\createnewfile.h(11): warning C4129: F: неизвестная escape-последовательность
@@ -9,7 +12,9 @@ c:\users\nikit\onedrive\рабочий стол\lr1\lr1\lr1\deletefolder.h(9): w
 c:\users\nikit\onedrive\рабочий стол\lr1\lr1\lr1\copythefile.h(11): warning C4129: F: неизвестная escape-последовательность
 c:\users\nikit\onedrive\рабочий стол\lr1\lr1\lr1\copythefile.h(14): warning C4129: F: неизвестная escape-последовательность
 c:\users\nikit\onedrive\рабочий стол\lr1\lr1\lr1\asynchronousfilecopying.h(48): warning C4244: аргумент: преобразование "unsigned __int64" в "DWORD", возможна потеря данных
-c:\users\nikit\onedrive\рабочий стол\lr1\lr1\lr1\asynchronousfilecopying.h(132): warning C4244: аргумент: преобразование "unsigned __int64" в "DWORD", возможна потеря данных
+c:\users\nikit\onedrive\рабочий стол\lr1\lr1\lr1\asynchronousfilecopying.h(78): warning C4129: F: неизвестная escape-последовательность
+c:\users\nikit\onedrive\рабочий стол\lr1\lr1\lr1\asynchronousfilecopying.h(82): warning C4129: F: неизвестная escape-последовательность
+c:\users\nikit\onedrive\рабочий стол\lr1\lr1\lr1\asynchronousfilecopying.h(134): warning C4244: аргумент: преобразование "unsigned __int64" в "DWORD", возможна потеря данных
 c:\users\nikit\onedrive\рабочий стол\lr1\lr1\lr1\infoattributes.h(71): warning C4129: F: неизвестная escape-последовательность
   Создание кода...
 LINK : warning LNK4075: не учитывается "/INCREMENTAL" из-за спецификации "/FORCE"
